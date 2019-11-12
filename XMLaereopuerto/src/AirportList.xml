@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listas>
+    <lista name="Aereopuerto">
+        <aereopuerto id="1">
+            <ciudad>Malaga</ciudad>
+            <pais>España</pais>
+        </aereopuerto>
+
+        <aereopuerto id="1">
+            <ciudad>Parais</ciudad>
+            <pais>Francia</pais>
+        </aereopuerto>
+
+        <aereopuerto id="1">
+            <ciudad>Berlin</ciudad>
+            <pais>Alemania</pais>
+        </aereopuerto>
+
+        <aereopuerto id="1">
+            <ciudad>Londres</ciudad>
+            <pais>Inglaterra</pais>
+        </aereopuerto>
+    </lista>
+</listas>
