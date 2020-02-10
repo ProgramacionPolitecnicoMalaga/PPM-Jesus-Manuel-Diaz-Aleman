@@ -1,3 +1,4 @@
+
 public class Compra extends Operacion {
 
 
@@ -5,3 +6,4 @@ public class Compra extends Operacion {
         super(precioAcordado, cliente, vehiculo);
     }
 }
+

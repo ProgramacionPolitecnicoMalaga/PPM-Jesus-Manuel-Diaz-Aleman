@@ -54,7 +54,7 @@ public class Concesionario {
             }else{
                 eliminarVehiculo(vehiculo);
                 añadirVenta(new Venta(precio, cliente, vehiculo));
-                cliente.pagar(precio);
+                cliente.ingresar(precio);
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -69,7 +69,7 @@ public class Concesionario {
             }else {
                 añadirVehiculo(vehiculo);
                 añadirCompra(new Compra(precio, cliente, vehiculo));
-                cliente.ingresar(precio);
+                cliente.pagar(precio);
             }
         } catch (Exception e) {
             e.printStackTrace();

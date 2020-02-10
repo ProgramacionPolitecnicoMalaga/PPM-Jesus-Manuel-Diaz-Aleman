@@ -3,15 +3,16 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class Vehiculo {
-    private String marca, color, modelo, matricula;
-    private LocalDate añoFabricacion;
+    private String marca, color, modelo, matricula, estado;
+    private int añoFabricacion;
 
-    public Vehiculo(String marca, String color, String modelo, String matricula, LocalDate añoFabricacion) {
+    public Vehiculo(String marca, String color, String modelo, String matricula, String estado, int añoFabricacion) {
         this.marca = marca;
         this.color = color;
         this.modelo = modelo;
         this.matricula = matricula;
         this.añoFabricacion = añoFabricacion;
+        this.estado = estado;
     }
 
     public String getMarca() {
@@ -38,11 +39,11 @@ public class Vehiculo {
         this.modelo = modelo;
     }
 
-    public LocalDate getAñoFabricacion() {
+    public int getAñoFabricacion() {
         return añoFabricacion;
     }
 
-    public void setAñoFabricacion(LocalDate añoFabricacion) {
+    public void setAñoFabricacion(int añoFabricacion) {
         this.añoFabricacion = añoFabricacion;
     }
 
@@ -74,6 +75,7 @@ public class Vehiculo {
                 ", color='" + color + '\'' +
                 ", modelo='" + modelo + '\'' +
                 ", matricula='" + matricula + '\'' +
+                ", estado=" + estado + '\'' +
                 ", añoFabricacion=" + añoFabricacion +
                 '}';
     }
