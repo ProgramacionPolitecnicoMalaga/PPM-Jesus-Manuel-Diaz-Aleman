@@ -31,7 +31,6 @@ public class ControladorAgregar implements ActionListener {
             itemDAO.insertarItem(item);
             vista.cargarDatosItem(itemDAO.mostrarItems());
             vista.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            System.exit(1);
         }
     }
 }
